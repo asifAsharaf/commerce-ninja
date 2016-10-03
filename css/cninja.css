@@ -1,0 +1,365 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    
+
+}
+
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+/*header.carousel {
+    height: 60%;
+}*/
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.topnav
+{
+    width: 100%;
+    padding-top : 15px;
+    padding-bottom : 10px;
+}
+
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.form-search{
+    margin: auto;
+}
+
+
+/*************************
+*******Footer CSS******
+**************************/
+
+#footer {
+  background: black;
+  background-color: red;
+}
+
+
+.footer-top .container {
+  border-bottom: 1px solid #E0E0DA;
+  padding-bottom: 20px;
+}
+
+
+.footer-top .col-sm-3{
+  overflow: hidden;
+}
+
+.video-gallery {
+  margin-top: 57px;
+  position: inherit;
+}
+
+.video-gallery a img {
+  height: 100%;
+  width: 100%;
+}
+
+.iframe-img {
+  position: relative;
+  display: block;
+  height: 61px;
+  margin-bottom: 10px;
+  border: 2px solid #CCCCC6;
+  border-radius: 3px;
+}
+
+.overlay-icon {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 61px;
+  background: #FE980F;
+  border-radius: 3px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 0;
+  display: block;
+  opacity: 0;
+   -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.overlay-icon i {
+  position: relative;
+  top: 50%;
+  margin-top: -20px;
+}
+
+
+
+
+.address {
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.address  img {
+    width:100%;
+}
+
+.address p {
+  color: #666663;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  left: 25px;
+  position: absolute;
+  top: 50px;
+}
+
+.footer-widget {
+  padding-bottom: 30px;
+  background-color: #414141;
+}
+
+.footer-widget .container {
+  border-top: 1px solid #FFFFFF;
+  padding-top: 15px;
+}
+
+.single-widget h2 {
+  color: #666663;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.single-widget h2 i{
+    margin-right:15px;
+}
+
+.single-widget ul li a{
+    color: #8C8C88;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+.single-widget ul li a i {
+  margin-right: 18px;
+}
+
+.single-widget ul li a:hover{
+    background:none;
+    color:#FE980F;
+}
+
+
+/*.searchform input {
+  border: 1px solid #DDDDDD;
+  color: #CCCCC6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-top: 0;
+  outline: medium none;
+  padding: 7px;
+  width: 212px;
+}
+*/
+
+/**/
+.footer-bottom {
+
+  background: #202020;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  color: #918787;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.footer-bottom p span a {
+  color: #FE980F;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+/*************************
+******* footer ends ******
+**************************/
+
+.panel-group .panel-heading
+{
+    background-color: transparent;
+}
+
+.well {
+  background-color: #FFFFFF;
+  border: 1px solid #F7F7F0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 35px;
+}
+
+.jumbatron{
+  overflow: hidden;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.btn-shp
+{
+  border-radius:0px; 
+}
+
+.container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+img.small{
+  width: 200px;
+}
+
+img.large{
+  width: 400px;
+}
+
+.container.main{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa.fa-star{
+  padding: 4px;
+  color: yellow;
+}
+
+.ftext{
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.row.topnav{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding : 3px;
+ 
+}
+div.colu.col-md-3,div.colu.col-md-4,div.colu.col-md-1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding : 3px;
+  background-color: transparent;
+ 
+}
+
+.header-image {
+position:relative;
+}
+
+.img-on-top {
+position:absolute;
+z-index:99;
+left:10px;
+bottom:0%;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 0 0 0 0; 
+    }
+
+  .btn-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+.checkout-img{
+    width: 200;
+}
