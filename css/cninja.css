@@ -228,7 +228,7 @@ header.carousel .fill {
 
 .single-widget ul li a:hover{
     background:none;
-    color:#FE980F;
+    color:#F5F7FA;
 }
 
 
@@ -362,4 +362,8 @@ bottom:0%;
 
 .checkout-img{
     width: 200;
+}
+.panel-default>.panel-heading
+{
+    background-color: transparent;
 }
